@@ -9,6 +9,8 @@ from libs import command
 import re
 import random
 
+SNARK_MSGS_LOC = 'addons/funkin/data/snark.txt'
+
 class Command(command.DirectOnlyCommand, command.Config):
     '''Replies with a snarky comment when someone wants one.
 
@@ -18,8 +20,8 @@ Figure it out yourself
 Oh, you weren't expecting snark here as well?
 Well, you're the one who asked for help with snark; I'm just delivering on what you asked for '''
 
-    def __init__(self, snark_data=None, **kwargs):
-        super().__init__(**kwargs)
+    def __init__(self, config=None, **kwargs):
+        super().__init__(config=SNARK_MSGS_LOC, **kwargs)
         self.snark_data = self.config.content
 
     def matches(self, message):
