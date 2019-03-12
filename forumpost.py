@@ -8,7 +8,7 @@ Created on Sun Jan 14 13:08:24 2018
 from libs import command
 import re
 
-class Command(command.Command):
+class Command(command.ErrorlessCommand):
     '''Adds an emoji reaction to any message that has
 the words "forum post".
 

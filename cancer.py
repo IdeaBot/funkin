@@ -8,7 +8,7 @@ Created on Wed May 23 21:56:21 2018
 from libs import command
 import re
 
-class Command(command.Command):
+class Command(command.ErrorlessCommand):
     '''Replies with a specific image
 
 Anyone who uses this is worse than the disease

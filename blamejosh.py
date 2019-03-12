@@ -9,7 +9,7 @@ Created on Sat Jan 13 13:23:56 2018
 from libs import command
 import re
 
-class Command(command.Command):
+class Command(command.ErrorlessCommand):
     '''BlameJoshCommand blames josh when anyone says to blame josh.
 Josh should always be blamed.
 
