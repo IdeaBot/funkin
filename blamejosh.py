@@ -16,7 +16,7 @@ Josh should always be blamed.
 **Usage**
 ```blame josh```
 
-**NOTE:** This is a joke command and will probably be removed very soon '''
+**NOTE:** This is a joke command and will probably be removed very soon (v1.0) '''
 
     def matches(self, message):
         return re.search(r'\bblame josh\b', message.content, re.IGNORECASE)

@@ -14,7 +14,7 @@ the words "forum post".
 
 This. Is. A. Joke.
 
-**NOTE:** This is a joke command and will probably be removed very soon '''
+**NOTE:** This is a joke command and will probably be removed very soon (v1.0)'''
 
     def __init__(self, **kwargs):
         super().__init__(**kwargs)
